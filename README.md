@@ -27,6 +27,11 @@ Example Playbook
       hosts: managed
       roles:
          - common
+      vars:
+        common_packages:
+          - vim
+          - htop
+          - git
 
 License
 -------
